@@ -1,0 +1,14 @@
+1- Lecture du README, compréhension du sujet
+2- Petits test grâce à la classe de test pour mieux comprendre
+3- Mise à plat des différents cas (sur papier)
+
+4- Besoin de gérer les différents cas d'Item : il faudrait un updateQuality différent pour chaque type d'Item
+
+5- Passage de updateQuality dans Item. Ainsi, dans Shop on n'a plus qu'à faire appel à updateQuality de Item qui gère les différents cas selon le nom
+Utilisation de "switch" : si on rajoute un produit, on le fait plus facilement, c'est un cas en plus.
+
+Est-ce que il est possible d'avoir plusieurs éléments "Conjured" autre que "Conjured Mana Cake" ??
+
+6- Ajout des cas de tests pour voir si ça marche; tests effectués seulement sur la première journée
+
+6- Ajout de constantes pour les différents noms (on évite les fautes de copier-coller notamment);
